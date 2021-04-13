@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carousel</title>
+
+    <!-- Extra links -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Favorites</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Account</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carousel/header_1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Kids</h5>
+                            <p>Much gas, very travel</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel/header_2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Broken</h5>
+                            <p>Much Broken, very fix</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel/header_3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lama</h5>
+                            <p>Lama zitten</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm content text-center bg-white p-4 m-4 flex-column d-flex">
+            <img width="100"
+                 src="img/icon_1.png"
+                 class="rounded mx-auto d-block" alt="...">
+            <h3 class="display-6 p-3 text-secondary">Dream.</h3>
+            <p class="text-secondary">"Generic Inspirational travel text"</p>
+            <button type="button" class="btn btn-primary rounded-pill mt-auto m-4" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                View Details</button>
+
+        </div>
+        <div class="col-sm content text-center bg-white p-4 m-4 flex-column d-flex">
+            <img width="100"
+                 src="img/icon_2.png"
+                 class="rounded mx-auto d-block" alt="...">
+            <h3 class="display-6 p-3 text-secondary">Discover.</h3>
+            <p class="text-secondary">"Generic Inspirational travel text"</p>
+            <button type="button" class="btn btn-primary rounded-pill mt-auto m-4" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                View Details</button>
+
+        </div>
+        <div class="col-sm content text-center bg-white p-4 m-4 flex-column d-flex">
+            <img width="100"
+                 src="img/icon_3.png"
+                 class="rounded mx-auto d-block" alt="...">
+            <h3 class="display-6 p-3 text-secondary">Explore.</h3>
+            <p class="text-secondary">"Generic Inspirational travel text"</p>
+            <button type="button" class="btn btn-primary rounded-pill mt-auto m-4" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                View Details</button>
+
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-7 bg-white p-4 m-2 flex-column d-flex">
+           <h1>Lama's</h1>
+            <p>De lama heeft een schofthoogte van 109 tot 119 centimeter, een kop-romplengte van 120 tot 225 centimeter en een lichaamsgewicht van 130 tot 155 kilogram. De vacht bestaat uit dikke wol. Het gezicht is dunner behaard. De vachtkleur varieert van wit via roodbruin en grijs tot zwart, zowel effen als gevlekt. Er zijn twee rassen, de chaku en de ccara. De chaku, het meer algemene ras, heeft een vrij lange, wollige vacht, de ccara een zeer korte vacht.</p>
+        </div>
+        <div class="col-md bg-white p-4 m-2 flex-column d-flex">
+            <img src="img/carousel/slide_2.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md bg-white p-4 m-2 flex-column d-flex">
+            <img src="img/carousel/slide_4.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-md-7 bg-white p-4 m-2 flex-column d-flex">
+            <h1>Huacachina</h1>
+            <p>Huacachina is gebouwd bij een oase, genaamd de "Oase van Amerika". Het dorp is erg gericht op toerisme, voornamelijk door de faciliteit zandborden. Er is de mogelijkheid om de geheel omringde zandduinen te beklimmen, door middel een buggy of te voet, en naar beneden te surfen per snowboard. Deze duinen zijn tot honderd meter hoog. Op het water van de oase is er de mogelijkheid om te waterfietsen. Rondom zijn allerlei winkels en restaurants, gericht op toerisme.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-7 bg-white p-4 m-2 flex-column d-flex">
+            <h1>Rainbow Mountain</h1>
+            <p>De Vinicunca (bijgenaamd Regenboogberg, Spaans: Montaña Arcoíris) is een veelkleurige berg in Peru met een hoogte van 5200 meter boven zeeniveau. De berg ligt in het hart van de Andes in de regio Cuzco, dicht bij de berg Ausangate. Aan de voet van de Vinicunca ligt de rivier Vilcanota.</p>
+        </div>
+        <div class="col-md bg-white p-4 m-2 flex-column d-flex">
+            <img src="img/carousel/slide_6.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+    <hr>
+</div></div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
